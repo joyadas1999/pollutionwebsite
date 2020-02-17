@@ -6,6 +6,8 @@
 body {
   margin: 0;
   padding: 0px;
+  background-color:#b3d9ff;
+
 
   }
 html {
@@ -21,11 +23,11 @@ figure{
    left: 0;
    bottom 0px;
    overflow hidden;
-   background-image :url('images/turtle.jpg');
+   background-image :url('turtle.jpg');
    animation:turtleanim 75s linear infinite;
 }
 
 @keyframes turtleanim{
   0%{background-position: 0 0;}
-  100%{background-position: -2122px 0;}
+  100%{background-position: 2122px 0;}
 }
